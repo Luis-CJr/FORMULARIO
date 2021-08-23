@@ -1,0 +1,254 @@
+
+
+*{
+     margin: 10px;
+     padding: 0%;
+     
+     background-color: #e4e2d9;
+         
+     
+     
+    
+}
+
+.text-head {
+     font-family: 'Nunito', sans-serif;;
+    color:#27208F;
+    font-weight: 900;
+    text-align: center;
+    font-size:25px ;
+}
+
+
+
+.text {font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    color:#27208F;
+    font-weight: 700;
+    padding-left: 0em;
+    
+}
+
+
+
+.name1 { padding-top: 5px;
+    font-size: 15px;
+    border:none;
+    background-color: white;
+    font-family: 'Nunito', sans-serif;
+    
+  
+}
+
+
+.email1 {
+    padding-top: 5px;
+    font-size: 15px;
+    border: none;
+    background-color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
+
+.age1 {
+    padding-top: 5px;
+    font-size: 15px;
+    border:none;
+    background-color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+.born-date {
+    padding-top: 5px;
+    font-size: 15px;
+    border: none;
+    background-color: white;
+    font-family: 'Nunito', sans-serif;
+    
+}
+.text-checkbox {
+    padding-top: 5px;
+    font-size: 15px;
+    border:none;
+    background-color: white;
+    font-family: 'Nunito', sans-serif;
+}
+.social-medias {
+    padding-top: 5px;
+    border:none;
+    font-family: 'Nunito', sans-serif;
+    
+    
+}
+.gender {
+    padding-top: 5px;
+    font-size: 15px;
+    border:none;
+    font-family: 'Nunito', sans-serif;
+    
+}
+.eye-color {
+    padding-top: 5px;
+    font-size: 15px;
+    border:none;
+    font-family: 'Nunito', sans-serif;
+    
+}
+.biograph {
+    padding-top: 5px;
+    font-size: 15px;
+    border:none;
+    background-color: white;
+    font-family: 'Nunito', sans-serif;
+}
+.photo {
+    padding-top: 5px;
+    font-size: 15px;
+    border:none;
+    font-family: 'Nunito', sans-serif;
+    
+}
+.contact {
+    padding-top: 5px;
+    font-size: 15px;
+    border:none;
+    background-color: white;
+    font-family: 'Nunito', sans-serif;
+}
+.link-url {
+    padding-top: 5px;
+    font-size: 15px;
+    border:none;
+    background-color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+.pass {
+    padding-top: 5px;
+    font-size: 15px;
+    border:none;
+    background-color: white;
+    font-family: 'Nunito', sans-serif;
+}
+.buttons {
+    padding-top: 15px;
+    font-size: 15px;
+    border:none;
+    font-family: 'Nunito', sans-serif;
+}
+
+#all {
+    
+    border-width: 4px;
+    border-style: solid;
+    border-color: #829DD9;
+   
+    border-radius: 10px;
+    padding: 3px;
+    width: 430px;
+    height: 1340px;
+    
+    
+}
+
+.button1:hover {
+
+    background: white;
+    color: black;
+    border-style: outset;
+    border-color: white;
+    height: 73px;
+    width: 153px;
+    text-shadow:none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    transition: 0.7s;
+}
+
+   .button1 { background:#0066A2;
+    color: #FFF5BD;
+    border-style: outset;
+    border:none;
+    height: 70px;
+    width: 150px;
+    text-shadow:none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 900;}
+
+    .button2:hover {background: black;
+                      color: white;
+    border-style: outset;
+    border-color: black;
+    height: 73px;
+    width: 153px;
+    text-shadow:none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    transition: 0.7s;}
+    
+    
+
+
+    .button2 {background: #0066A2;
+        color: #FFF5BD;
+        border-style: outset;
+        border-color: #0066A2;
+        height: 70px;
+        width: 150px;
+        text-shadow:none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: 'Nunito', sans-serif;
+        font-size: 18px;
+        font-weight: 900;}
+
+
+    #sexm {
+        font-size: 16px;
+        font-family: 'Nunito', sans-serif;
+        color:#27208F;
+        font-weight: 200;}
+    
+   
+
+
+    #sexf {
+        font-size: 16px;
+        font-family: 'Nunito', sans-serif;
+        color:#27208F;
+        font-weight: 200;
+   
+
+    }
+
+  .social-medias {
+
+    font-size: 17px;
+    font-family: 'Nunito', sans-serif;
+    color:#27208F;
+    font-weight: 400;
+   
+
+
+  }
+
+  input::placeholder
+  {font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    color:#2318b8;
+    font-weight: 200;
+    padding: 10px;
+    
+      
+  }

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio2-html-codeclub</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href=<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;1,400;1,900&display=swap"
+        rel="stylesheet">
+
+<body>
+    <div id="all">
+
+        <form action="" method="POST" enctype="multipart/form-data">
+
+            <p class="text-head">CADASTRO</p>
+
+
+
+            <label>
+
+                <p class="text">Nome: </p>
+                <input class="name1" type="text" name="nome" autocomplete="name" autofocus placeholder="Nome" required>
+            </label>
+
+
+
+            <label>
+                <p class="text">E-mail:</p>
+                <input class="email1" name="email" autocomplete="email" placeholder="Email" required>
+            </label>
+
+
+            <label>
+                <p class="text">Idade:</p> <input class="age1" name="idade" placeholder="Idade" type="number" min="12"
+                    required step="1">
+            </label>
+
+
+            <label>
+                <p class="text">Data de Nascimento:</p>
+                <input class="born-date" name="date" id="date" type="date" required>
+            </label>
+
+
+            <label>
+                <p class="text">Onde você possui conta:</p>
+
+                <p class="social-medias">Facebook <input type="checkbox">
+
+                    Instagram <input type="checkbox">
+
+                    Youtube <input type="checkbox"></p>
+            </label>
+
+            <label>
+                <p class="text">Sexo:</p required name="sexo">
+
+                <input id="sexm" class="gender" type="radio" name="Sexo" value="Sexo">
+                <label id="sexm" for="Masculino">Masculino</label>
+
+
+                <input id="sexf" class="gender" type="radio" name="Sexo" value="Sexo">
+                <label id="sexf" for="Feminino">Feminino</label>
+
+                </Input>
+            </label>
+
+
+
+            <label>
+                <p class="text">Cor dos Olhos</p>
+
+                <input class="eye-color" type="color" required name="cor-dos-olhos">
+            </label>
+
+
+            <label>
+                <p class="text">Biografia:</p>
+
+
+                <textarea id="Biografia" name="Bio" required class="biograph">
+
+</textarea>
+            </label>
+
+
+            <label>
+                <p class="text">Foto de Perfil:</p>
+
+                <input class="photo" type="file" accept="image/*" required name="foto-de-perfil">
+
+            </label>
+
+
+            <label>
+                <p class="text">Telefone:</p>
+                <input class="contact" type="tel" required name="contato">
+            </label>
+
+
+            <label>
+                <p class="text">Link da sua rede social:</p>
+                <input class="link-url" type="url" required name="url">
+
+            </label>
+
+
+
+            <label>
+                <p class="text">Senha:</p>
+
+                <input class="pass" min="6" max="8" required name="password">
+            </label>
+
+
+            <p>
+                <button class="button1" type="submit">Enviar Dados</button>
+                <button class="button2" type="reset>">Limpar</button>
+            </p>
+
+
+        </form>
+
+    </div>
+
+</body>
+
+
+</html>
